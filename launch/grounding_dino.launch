@@ -1,0 +1,8 @@
+<launch>
+  <node name="grounding_dino_node"
+	pkg="grounding_dino_ros"
+	type="grounding_dino_launcher.sh"
+	output="screen"
+	required="true">
+  </node>
+</launch>
